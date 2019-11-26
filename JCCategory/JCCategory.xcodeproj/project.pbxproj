@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		78137085238D06F200AB36AF /* UIView+JYCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 78137084238D06F200AB36AF /* UIView+JYCorner.m */; };
-		7844E2422387899600BC360A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2412387899600BC360A /* AppDelegate.m */; };
+		78137086238D115400AB36AF /* UIView+JYCorner.h in Sources */ = {isa = PBXBuildFile; fileRef = 78137083238D06F200AB36AF /* UIView+JYCorner.h */; };
+		78137087238D115B00AB36AF /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2402387899600BC360A /* AppDelegate.h */; };
+		78137088238D116900AB36AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2412387899600BC360A /* AppDelegate.m */; };
+		78137089238D116900AB36AF /* SceneDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2432387899600BC360A /* SceneDelegate.h */; };
+		7813708A238D116900AB36AF /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2462387899600BC360A /* ViewController.h */; };
+		7813708B238D116900AB36AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2472387899600BC360A /* ViewController.m */; };
 		7844E2452387899600BC360A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2442387899600BC360A /* SceneDelegate.m */; };
-		7844E2482387899600BC360A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2472387899600BC360A /* ViewController.m */; };
 		7844E24B2387899600BC360A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7844E2492387899600BC360A /* Main.storyboard */; };
 		7844E24D238789A200BC360A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7844E24C238789A200BC360A /* Assets.xcassets */; };
 		7844E250238789A200BC360A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7844E24E238789A200BC360A /* LaunchScreen.storyboard */; };
 		7844E253238789A300BC360A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E252238789A300BC360A /* main.m */; };
 		7844E25D238789A300BC360A /* JCCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E25C238789A300BC360A /* JCCategoryTests.m */; };
 		7844E268238789A300BC360A /* JCCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E267238789A300BC360A /* JCCategoryUITests.m */; };
-		7858F758238CCE88001C5206 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7858F756238CCE88001C5206 /* NSString+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +61,6 @@
 		7844E263238789A300BC360A /* JCCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7844E267238789A300BC360A /* JCCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCategoryUITests.m; sourceTree = "<group>"; };
 		7844E269238789A300BC360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7858F756238CCE88001C5206 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
-		7858F757238CCE88001C5206 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +155,6 @@
 			path = JCCategoryUITests;
 			sourceTree = "<group>";
 		};
-
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,10 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				78137085238D06F200AB36AF /* UIView+JYCorner.m in Sources 
-				7844E2482387899600BC360A /* ViewController.m in Sources 
-				7844E2422387899600BC360A /* AppDelegate.m in Sources */,
+				78137088238D116900AB36AF /* AppDelegate.m in Sources */,
+				78137089238D116900AB36AF /* SceneDelegate.h in Sources */,
+				7813708A238D116900AB36AF /* ViewController.h in Sources */,
+				7813708B238D116900AB36AF /* ViewController.m in Sources */,
+				78137087238D115B00AB36AF /* AppDelegate.h in Sources */,
+				78137086238D115400AB36AF /* UIView+JYCorner.h in Sources */,
+				78137085238D06F200AB36AF /* UIView+JYCorner.m in Sources */,
 				7844E253238789A300BC360A /* main.m in Sources */,
 				7844E2452387899600BC360A /* SceneDelegate.m in Sources */,
 			);
