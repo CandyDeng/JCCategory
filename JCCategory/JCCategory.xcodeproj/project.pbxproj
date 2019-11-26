@@ -154,19 +154,7 @@
 			path = JCCategoryUITests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		7844E2762387AFD000BC360A /* JCUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				7858F757238CCE88001C5206 /* NSString+Extension.h */,
-				7858F756238CCE88001C5206 /* NSString+Extension.m */,
-			);
-			name = JCUtilities;
-			path = ../../JCUtilities;
-			sourceTree = "<group>";
-		};
-=======
->>>>>>> 0.0.1
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -297,12 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				7858F758238CCE88001C5206 /* NSString+Extension.m in Sources */,
-=======
-				78137085238D06F200AB36AF /* UIView+JYCorner.m in Sources */,
->>>>>>> 0.0.1
-				7844E2482387899600BC360A /* ViewController.m in Sources */,
+
+				78137085238D06F200AB36AF /* UIView+JYCorner.m in Sources 
+				7844E2482387899600BC360A /* ViewController.m in Sources 
 				7844E2422387899600BC360A /* AppDelegate.m in Sources */,
 				7844E253238789A300BC360A /* main.m in Sources */,
 				7844E2452387899600BC360A /* SceneDelegate.m in Sources */,
