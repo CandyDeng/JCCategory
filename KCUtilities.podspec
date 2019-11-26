@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '8.0'
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.description  = <<-DESC 
-                          JCUtilities 是一个用于保存一些常用工具类的工具
+                          KCUtilities 是一个用于保存一些常用工具类的工具
                    DESC
 
 
