@@ -118,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				78137082238D06F200AB36AF /* KCUtilities */,
-				7844E2762387AFD000BC360A /* JCUtilities */,
 				7844E2402387899600BC360A /* AppDelegate.h */,
 				7844E2412387899600BC360A /* AppDelegate.m */,
 				7844E2432387899600BC360A /* SceneDelegate.h */,
@@ -150,14 +149,6 @@
 				7844E269238789A300BC360A /* Info.plist */,
 			);
 			path = JCCategoryUITests;
-			sourceTree = "<group>";
-		};
-		7844E2762387AFD000BC360A /* JCUtilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = JCUtilities;
-			path = ../../JCUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
