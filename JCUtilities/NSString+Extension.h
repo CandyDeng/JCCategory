@@ -10,15 +10,5 @@
 
 @interface NSString (Extension)
 
-+ (NSString *)unBlank:(NSString *)string;
-
-
-+ (NSString *)dataFromTimeInterval:(NSTimeInterval)timeInterval;
-
-+ (NSString *)timeFromTimeInterval:(NSTimeInterval)timeInterval;
-
-- (NSString*)doubleValueString;
-
-- (NSString*)marketUnitCount;
 
 @end
