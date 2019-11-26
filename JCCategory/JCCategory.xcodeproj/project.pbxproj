@@ -16,6 +16,7 @@
 		7844E253238789A300BC360A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E252238789A300BC360A /* main.m */; };
 		7844E25D238789A300BC360A /* JCCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E25C238789A300BC360A /* JCCategoryTests.m */; };
 		7844E268238789A300BC360A /* JCCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E267238789A300BC360A /* JCCategoryUITests.m */; };
+		7858F755238CC9B3001C5206 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7858F753238CC9B3001C5206 /* NSString+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7844E263238789A300BC360A /* JCCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7844E267238789A300BC360A /* JCCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCategoryUITests.m; sourceTree = "<group>"; };
 		7844E269238789A300BC360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7858F753238CC9B3001C5206 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		7858F754238CC9B3001C5206 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 		7844E2762387AFD000BC360A /* JCUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				7858F754238CC9B3001C5206 /* NSString+Extension.h */,
+				7858F753238CC9B3001C5206 /* NSString+Extension.m */,
 			);
 			name = JCUtilities;
 			path = ../../JCUtilities;
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7858F755238CC9B3001C5206 /* NSString+Extension.m in Sources */,
 				7844E2482387899600BC360A /* ViewController.m in Sources */,
 				7844E2422387899600BC360A /* AppDelegate.m in Sources */,
 				7844E253238789A300BC360A /* main.m in Sources */,
