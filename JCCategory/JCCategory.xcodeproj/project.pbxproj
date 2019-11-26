@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78137081238CFE2E00AB36AF /* UIView+JYCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 78137080238CFE2E00AB36AF /* UIView+JYCorner.m */; };
+		78137085238D06F200AB36AF /* UIView+JYCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 78137084238D06F200AB36AF /* UIView+JYCorner.m */; };
 		7844E2422387899600BC360A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2412387899600BC360A /* AppDelegate.m */; };
 		7844E2452387899600BC360A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2442387899600BC360A /* SceneDelegate.m */; };
 		7844E2482387899600BC360A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2472387899600BC360A /* ViewController.m */; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7813707F238CFE2E00AB36AF /* UIView+JYCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYCorner.h"; sourceTree = "<group>"; };
-		78137080238CFE2E00AB36AF /* UIView+JYCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYCorner.m"; sourceTree = "<group>"; };
+		78137083238D06F200AB36AF /* UIView+JYCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYCorner.h"; sourceTree = "<group>"; };
+		78137084238D06F200AB36AF /* UIView+JYCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYCorner.m"; sourceTree = "<group>"; };
 		7844E23D2387899600BC360A /* JCCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7844E2402387899600BC360A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7844E2412387899600BC360A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78137082238D06F200AB36AF /* KCUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				78137083238D06F200AB36AF /* UIView+JYCorner.h */,
+				78137084238D06F200AB36AF /* UIView+JYCorner.m */,
+			);
+			name = KCUtilities;
+			path = ../../KCUtilities;
+			sourceTree = "<group>";
+		};
 		7844E2342387899600BC360A = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		7844E23F2387899600BC360A /* JCCategory */ = {
 			isa = PBXGroup;
 			children = (
+				78137082238D06F200AB36AF /* KCUtilities */,
 				7844E2762387AFD000BC360A /* JCUtilities */,
 				7844E2402387899600BC360A /* AppDelegate.h */,
 				7844E2412387899600BC360A /* AppDelegate.m */,
@@ -144,8 +155,6 @@
 		7844E2762387AFD000BC360A /* JCUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				7813707F238CFE2E00AB36AF /* UIView+JYCorner.h */,
-				78137080238CFE2E00AB36AF /* UIView+JYCorner.m */,
 			);
 			name = JCUtilities;
 			path = ../../JCUtilities;
@@ -281,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78137081238CFE2E00AB36AF /* UIView+JYCorner.m in Sources */,
+				78137085238D06F200AB36AF /* UIView+JYCorner.m in Sources */,
 				7844E2482387899600BC360A /* ViewController.m in Sources */,
 				7844E2422387899600BC360A /* AppDelegate.m in Sources */,
 				7844E253238789A300BC360A /* main.m in Sources */,
