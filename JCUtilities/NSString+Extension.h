@@ -12,8 +12,6 @@
 
 + (NSString *)unBlank:(NSString *)string;
 
-+ (UIColor *)colorOfState:(NSString *)readyStateNa;
-
 + (NSString *)dataFromTimeInterval:(NSTimeInterval)timeInterval;
 
 + (NSString *)timeFromTimeInterval:(NSTimeInterval)timeInterval;
