@@ -17,6 +17,7 @@
 		7844E253238789A300BC360A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E252238789A300BC360A /* main.m */; };
 		7844E25D238789A300BC360A /* JCCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E25C238789A300BC360A /* JCCategoryTests.m */; };
 		7844E268238789A300BC360A /* JCCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E267238789A300BC360A /* JCCategoryUITests.m */; };
+		78AAC0E5239E4D1D00DF940D /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AAC0E4239E4D1D00DF940D /* UIButton+EnlargeEdge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		7844E263238789A300BC360A /* JCCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7844E267238789A300BC360A /* JCCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCategoryUITests.m; sourceTree = "<group>"; };
 		7844E269238789A300BC360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78AAC0E3239E4D1D00DF940D /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		78AAC0E4239E4D1D00DF940D /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			children = (
 				78137083238D06F200AB36AF /* UIView+JYCorner.h */,
 				78137084238D06F200AB36AF /* UIView+JYCorner.m */,
+				78AAC0E3239E4D1D00DF940D /* UIButton+EnlargeEdge.h */,
+				78AAC0E4239E4D1D00DF940D /* UIButton+EnlargeEdge.m */,
 			);
 			name = KCUtilities;
 			path = ../../KCUtilities;
@@ -286,6 +291,7 @@
 				7844E2422387899600BC360A /* AppDelegate.m in Sources */,
 				7844E253238789A300BC360A /* main.m in Sources */,
 				7844E2452387899600BC360A /* SceneDelegate.m in Sources */,
+				78AAC0E5239E4D1D00DF940D /* UIButton+EnlargeEdge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
